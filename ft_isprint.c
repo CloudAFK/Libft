@@ -14,6 +14,7 @@ int	ft_isprint(int c)
 {
 	return (c >= 0 && c <= 127);
 }
+/*
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -27,3 +28,4 @@ int	main(int ac, char **av)
 		printf("Le char '%s' n'est pas printable", av[1]);
 	return (0);
 }
+*/
