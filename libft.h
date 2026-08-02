@@ -1,38 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memset.c                                        :+:      :+:    :+:   */
+/*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/01 11:07:56 by Cloud             #+#    #+#             */
-/*   Updated: 2026/08/01 15:25:51 by marvin           ###   ########.fr       */
+/*   Created: 2026/08/01 14:01:16 by marvin            #+#    #+#             */
+/*   Updated: 2026/08/02 00:03:56 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef LIBFT_H
+# define LIBFT_H
+
 #include <stddef.h>
+#include <stdlib.h>
 
-void	*ft_memset(void *b, int c, size_t len)
-{
-	unsigned char	*ptr;
+int	ft_isalnum(int c);
+int	ft_isalpha(int c);
+int	ft_isascii(int c);
+int	ft_isdigit(int c);
+int	ft_isprint(int c);
+void	*ft_memset(void *b, int c, size_t len);
+int	ft_strlen(char *str);
+int ft_strncmp(char *s1, char *s2);
 
-	ptr = (unsigned char *)b;
-	size_t (i) = 0;
-	while (i < len)
-	{
-		ptr[i] = c;
-		i++;
-	}
-	return (ptr);
-}
-/*
-#include <stdio.h>
 
-int	main(void)
-{
-	char	str[7] = "Hello";
-	ft_memset(str, 't', 4);
-	printf("Voici la nouvelle string : %s", str);
-	return (0);
-}
-*/
+#endif
