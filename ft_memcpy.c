@@ -1,31 +1,43 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isprint.c                                       :+:      :+:    :+:   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cloudking <cloudking@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/01 11:00:36 by Cloud             #+#    #+#             */
-/*   Updated: 2026/08/02 13:47:34 by cloudking        ###   ########.fr       */
+/*   Created: 2026/08/02 13:41:27 by cloudking         #+#    #+#             */
+/*   Updated: 2026/08/02 14:22:38 by cloudking        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isprint(int c)
+#include <stdlib.h>
+
+void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	return (c >= 32 && c <= 126);
+	unsigned char	*dest_n;
+	unsigned char	*src_n;
+
+	size_t(i) = 0;
+	dest_n = (unsigned char *)dest;
+	src_n = (unsigned char *)src;
+	while (i < n)
+	{
+		dest_n[i] = src_n[i];
+		i++;
+	}
+	return (dest);
 }
 /*
 #include <stdio.h>
-#include <stdlib.h>
 
-int	main(int ac, char **av)
+int main(void)
 {
-	(void) ac;
-	int	(result) = ft_isprint(atoi(av[1]));
-	if (result == 1)
-		printf("Le char '%s' est printable", av[1]);
-	else
-		printf("Le char '%s' n'est pas printable", av[1]);
-	return (0);
+	char dest[6];
+	char *src;
+
+	src = "Hello";
+	ft_memcpy(dest, src, sizeof(3));
+	printf("Voici la nouvelle chaine : %s", dest);
+
 }
 */
