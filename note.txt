@@ -10,8 +10,8 @@
 • memmove
 • strlcpy
 • strlcat
-• toupper
-• tolower
+• toupper   X
+• tolower   X
 • strchr
 • strrchr
 • strncmp   X
