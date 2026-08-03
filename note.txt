@@ -6,7 +6,7 @@
 • strlen    X
 • memset    X
 • bzero     X
-• memcpy
+• memcpy	X
 • memmove
 • strlcpy
 • strlcat
