@@ -6,7 +6,7 @@
 /*   By: romasant <romasant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/16 23:52:49 by romasant          #+#    #+#             */
-/*   Updated: 2026/09/19 18:04:40 by romasant         ###   ########.fr       */
+/*   Updated: 2026/10/01 18:40:06 by romasant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_isalpha(int c)
 {
 	return ((c >= 65 && c <= 90) || (c >= 97 && c <= 122));
 }
-
+/*
 #include <stdio.h>
 
 int	main(int ac, char **av)
@@ -25,6 +25,8 @@ int	main(int ac, char **av)
 	char	c;
 
 	c = av[1][0];
-	printf("Le caractere est une lettre si = 1, sinon = 0\nValeur = %d", ft_isalpha(c));
+	printf("Le caractere est une lettre
+	si = 1, sinon = 0\nValeur = %d", ft_isalpha(c));
 	return (0);
 }
+*/
