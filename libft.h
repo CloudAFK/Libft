@@ -6,8 +6,13 @@
 /*   By: romasant <romasant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/16 23:51:52 by romasant          #+#    #+#             */
-/*   Updated: 2026/09/16 23:52:14 by romasant         ###   ########.fr       */
+/*   Updated: 2026/09/19 17:43:06 by romasant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef LIBFT_H
+# define LIBFT_H
 
+int	ft_isalpha(int c);
+
+#endif
