@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: romasant <romasant@student.42.fr>          +#+  +:+       +#+        */
+/*   By: cloudking <cloudking@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/01 18:42:23 by romasant          #+#    #+#             */
-/*   Updated: 2026/10/01 18:49:05 by romasant         ###   ########.fr       */
+/*   Updated: 2026/10/03 16:03:49 by cloudking        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,8 @@ int	main(int ac, char **av)
 	char	c;
 
 	c = av[1][0];
-	printf("Le caractere est un nombre si = 1, sinon = 0\nValeur = %d", ft_isdigit(c));
+	printf("Le caractere est un nombre si
+	= 1, sinon = 0\nValeur = %d", ft_isdigit(c));
 	return (0);
 }
 */
