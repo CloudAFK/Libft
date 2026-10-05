@@ -6,7 +6,7 @@
 /*   By: romasant <romasant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/16 23:51:52 by romasant          #+#    #+#             */
-/*   Updated: 2026/10/04 16:56:57 by romasant         ###   ########.fr       */
+/*   Updated: 2026/10/05 16:23:44 by romasant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,5 +20,6 @@ int		ft_isalnum(int c);
 int		ft_isascii(int c);
 int		ft_isprint(int c);
 size_t	ft_strlen(const char *s);
+int		ft_toupper(int c);
 
 #endif
