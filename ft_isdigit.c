@@ -6,7 +6,7 @@
 /*   By: romasant <romasant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/01 18:42:23 by romasant          #+#    #+#             */
-/*   Updated: 2026/10/04 16:26:43 by romasant         ###   ########.fr       */
+/*   Updated: 2026/10/07 16:49:45 by romasant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	main(int ac, char **av)
 {
 	(void) ac;
 	char	c;
-	
+
 	c = av[1][0];
 	printf("Le caractere est un nombre
 	si = 1, sinon = 0\nValeur = %d\n", ft_isdigit(c));
