@@ -3,3 +3,4 @@ subject.pdf
 *.txt
 test
 a.out
+tests/
