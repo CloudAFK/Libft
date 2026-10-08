@@ -6,7 +6,7 @@
 /*   By: romasant <romasant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/07 18:59:13 by romasant          #+#    #+#             */
-/*   Updated: 2026/10/08 22:57:54 by romasant         ###   ########.fr       */
+/*   Updated: 2026/10/08 23:02:54 by romasant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strrchr(const char *s, int c)
 {
-	size_t counter_str;
+	size_t	counter_str;
 	size_t	last_index;
 	int		flag;
 
@@ -33,6 +33,6 @@ char	*ft_strrchr(const char *s, int c)
 	if ((char)c == '\0')
 		return ((char *)&s[counter_str]);
 	if (!s[counter_str] && flag == 1)
-			return ((char *)&s[last_index]);
+		return ((char *)&s[last_index]);
 	return (NULL);
 }
