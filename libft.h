@@ -6,7 +6,7 @@
 /*   By: romasant <romasant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/16 23:51:52 by romasant          #+#    #+#             */
-/*   Updated: 2026/10/09 00:04:45 by romasant         ###   ########.fr       */
+/*   Updated: 2026/10/09 00:36:55 by romasant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,7 @@ int		ft_strncmp(const char *s1, const char *s2, size_t n);
 void	*ft_memset(void *s, int c, size_t n);
 void	ft_bzero(void *s, size_t n);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
+void	*ft_memmove(void *dest, const void *src, size_t n);
+
 
 #endif
